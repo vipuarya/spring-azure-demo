@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController
 {
-    @GetMapping("/msg")
+    @GetMapping("/message")
     public String hello()
     {
-        return "Hello, Springboot app deployed in Azure";
+        return "Hello, New Springboot app deployed in Azure";
     }
 }
